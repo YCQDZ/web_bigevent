@@ -28,7 +28,7 @@ git push 推送到远程仓库
 
 在master分支下创建index分支: git checkout -b index 
 
-### 后台主页
+### 三、 后台主页
 lay-shrink      	     
 空值（默认）不收缩兄弟菜单子菜单            
 all 收缩全部兄弟菜单子菜单       
@@ -40,3 +40,13 @@ git add .
 git commit -m "完成了主页功能的开发"      
 git push -u origin index      
 
+### 四、用户
+git checkout -b user               
+lay-filter这个属性可以快速为form表单赋值和取值        
+git add .       
+git commit -m "完成个人中心功能的开发"       
+git push -u origin user          
+git checkout main     
+git merge user      
+git push       
+git checkout -b article     

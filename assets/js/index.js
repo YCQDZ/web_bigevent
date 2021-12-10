@@ -60,10 +60,10 @@ function renderAvatar(user){
     // 3、按需渲染用户的头像
     if(user.user_pic !== null){
         // 3.1 渲染图片头像
-        $('.lay-nav-img')
+        $('.layui-nav-img')
          .attr('src',user.user_pic)
          .show()
-        $('.text-avator').hide()
+        $('.text-avatar').hide()
     }else{
         // 3.2 渲染文本头像
         $('.layui-nav-img').hide()
